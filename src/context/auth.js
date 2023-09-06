@@ -28,6 +28,7 @@ const AuthProvider = ({ children }) => {
     <AuthContext.Provider value={([auth, setAuth], [value, setValue])}>
       {children}
     </AuthContext.Provider>
+
   );
 };
 
